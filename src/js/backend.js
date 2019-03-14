@@ -12,7 +12,7 @@ const consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", 
 
 
 const string1 = "We at pregamed at the underground, tasteless bar. it was a great wonderful of extreme efficiency"
-const stringSplit = string1.split(" ");
+
 let sylCounter = stringSplit.length;
 
 
@@ -31,11 +31,28 @@ let sylCounter = stringSplit.length;
  }
 
  // for loop that counts combined consonants inside words
-  // ****** PLACEHOLDER **********
-  // for (l=0; l<consonants.length;l++) {
-  //   if (consonants.include(word[i])) {
-  //     word.slice(word[i]-1,word[i]+1)
-  //   }
-  // }
 
-}
+// 
+//   for (l=0; l<consonants.length;l++) {
+//     if (consonants.include(word[i])) {
+//       word.slice(word[i]-1,word[i]+1)
+//     }
+//   }
+//
+// }
+
+// function new_count(word) {
+//   word = word.toLowerCase();                                     //word.downcase!
+//   if(word.length <= 3) { return 1; }                             //return 1 if word.length <= 3
+//     word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');   //word.sub!(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '')
+//     word = word.replace(/^y/, '');                                 //word.sub!(/^y/, '')
+//     return word.match(/[aeiouy]{1,2}/g).length;                    //word.scan(/[aeiouy]{1,2}/).size
+// }
+//
+// console.log(new_count('she'));
+// console.log(new_count('spain'))
+// console.log(new_count('softball'))
+// console.log(new_count('contagion'))
+
+
+// \B[qwrtplkjhgfdszxcvbnm]{2,}\B
