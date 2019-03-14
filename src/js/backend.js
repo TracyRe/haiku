@@ -32,7 +32,7 @@ let sylCounter = stringSplit.length;
 
  // for loop that counts combined consonants inside words
 
-// 
+//
 //   for (l=0; l<consonants.length;l++) {
 //     if (consonants.include(word[i])) {
 //       word.slice(word[i]-1,word[i]+1)
@@ -55,4 +55,4 @@ let sylCounter = stringSplit.length;
 // console.log(new_count('contagion'))
 
 
-// \B[qwrtplkjhgfdszxcvbnm]{2,}\B
+// (?!st)\B[qwrtplkjhgfdszxcvbnm]{2,}\B
